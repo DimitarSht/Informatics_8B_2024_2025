@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1234"/>
+        <attribute name="authors" value="mite_"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-27 01:10:49 PM"/>
+        <attribute name="created" value="bWl0ZV87TUlUS087MjAyNC0xMS0yNzswMTowNjozMyBQTTsyMTkw"/>
+        <attribute name="edited" value="bWl0ZV87TUlUS087MjAyNC0xMS0yNzswMToxMDo0OSBQTTsxOzIzMDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <input variable="C"/>
+            <if expression="A+B&gt;C">
+                <then>
+                    <if expression="A+C&gt;B">
+                        <then>
+                            <if expression="B+C&gt;A">
+                                <then>
+                                    <output expression="&quot;imame triygylnik&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;nqma triygylnik&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;nqma triygylnik&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;nqma triygylnik&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

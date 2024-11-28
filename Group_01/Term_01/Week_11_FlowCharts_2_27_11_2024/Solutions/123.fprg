@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="123"/>
+        <attribute name="authors" value="mite_"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-27 01:06:31 PM"/>
+        <attribute name="created" value="bWl0ZV87TUlUS087MjAyNC0xMS0yNzswMTowMjozNSBQTTsyMTg4"/>
+        <attribute name="edited" value="bWl0ZV87TUlUS087MjAyNC0xMS0yNzswMTowNjozMSBQTTsxOzIyOTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, P, S" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <assign variable="P" expression="2*(A+B)"/>
+            <assign variable="S" expression="A*B"/>
+            <output expression="P" newline="True"/>
+            <output expression="S" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
