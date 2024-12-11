@@ -1,1 +1,2 @@
 # Какво правихме в час?
+- Решихме задачи 1, 2, 3 от файла в Мудъл -> [решения тук](https://github.com/DimitarSht/Informatics_8B_2024_2025/tree/main/Group_01/Term_01/Week_13_Flowcharts_3_11_12_2024/Solutions)
